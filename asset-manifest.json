@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/HY16384/english-vocabulary-web-app/static/css/main.d14f6dac.css",
-    "main.js": "/HY16384/english-vocabulary-web-app/static/js/main.44337617.js",
+    "main.js": "/HY16384/english-vocabulary-web-app/static/js/main.24c99c5d.js",
     "static/js/787.c4aaea54.chunk.js": "/HY16384/english-vocabulary-web-app/static/js/787.c4aaea54.chunk.js",
     "index.html": "/HY16384/english-vocabulary-web-app/index.html",
     "main.d14f6dac.css.map": "/HY16384/english-vocabulary-web-app/static/css/main.d14f6dac.css.map",
-    "main.44337617.js.map": "/HY16384/english-vocabulary-web-app/static/js/main.44337617.js.map",
+    "main.24c99c5d.js.map": "/HY16384/english-vocabulary-web-app/static/js/main.24c99c5d.js.map",
     "787.c4aaea54.chunk.js.map": "/HY16384/english-vocabulary-web-app/static/js/787.c4aaea54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d14f6dac.css",
-    "static/js/main.44337617.js"
+    "static/js/main.24c99c5d.js"
   ]
 }
