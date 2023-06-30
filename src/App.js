@@ -23,22 +23,22 @@ function App() {
       <div className={`sidebar${sidebarVisible ? ' visible' : ''}`}>
         <ul className="nav-links">
           <li>
-            <NavLink exact to="/" className="nav-link" activeClassName="active">
+            <NavLink exact to="/english-vocabulary-web-app/" className="nav-link" activeClassName="active">
               <i className="fa fa-home"></i> Home
             </NavLink>
           </li>
           <li>
-            <NavLink to="/wordlist" className="nav-link" activeClassName="active">
+            <NavLink to="/english-vocabulary-web-app/wordlist" className="nav-link" activeClassName="active">
               <i className="fa fa-list"></i> Word List
             </NavLink>
           </li>
           <li>
-            <NavLink to="/quiz" className="nav-link" activeClassName="active">
+            <NavLink to="/english-vocabulary-web-app/quiz" className="nav-link" activeClassName="active">
               <i className="fa fa-question-circle"></i> Quiz
             </NavLink>
           </li>
           <li>
-            <NavLink to="/about" className="nav-link" activeClassName="active">
+            <NavLink to="/english-vocabulary-web-app/about" className="nav-link" activeClassName="active">
               <i className="fa fa-info-circle"></i> About
             </NavLink>
           </li>
@@ -51,10 +51,10 @@ function App() {
 
       <div className="main-content">
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/wordlist" element={<WordListPage />} />
-          <Route path="/quiz" element={<QuizPage />} />
-          <Route path="/about" element={<AboutPage />} />
+          <Route path="/english-vocabulary-web-app/" element={<HomePage />} />
+          <Route path="/english-vocabulary-web-app/wordlist" element={<WordListPage />} />
+          <Route path="/english-vocabulary-web-app/quiz" element={<QuizPage />} />
+          <Route path="/english-vocabulary-web-app/about" element={<AboutPage />} />
         </Routes>
       </div>
     </Router>
