@@ -1,0 +1,33 @@
+.aboutpage-container {
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutpage-title {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.aboutpage-text {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.aboutpage-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.aboutpage-list-item {
+  margin-bottom: 10px;
+}
+
+.aboutpage-developer {
+  color: #666;
+}

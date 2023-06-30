@@ -1,0 +1,205 @@
+.wordlist-container {
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100% - 40px);
+  width: calc(100vw - 40px);
+}
+
+.wordlist-container h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.wordlist-form {
+  max-width: 90vw;
+}
+
+.wordlist-input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.wordlist-textarea {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  height: 80px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+  box-sizing: border-box;
+}
+
+.wordlist-button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.wordlist-list {
+  list-style-type: none;
+  margin-top: 20px;
+  padding: 0;
+  width: 80%; /* Set the width to 80% */
+  max-width: 450px;
+}
+
+.wordlist-item {
+  display: flex;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  align-items: flex-end;
+  gap: auto;
+}
+
+.wordlist-item span {
+  flex-grow: 1;
+  word-break: break-word;
+}
+
+.wordlist-item-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.wordlist-word {
+  font-weight: bold;
+}
+
+.wordlist-context {
+  color: #777;
+}
+
+.wordlist-date {
+  display: none;
+}
+
+.wordlist-delete-button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  height: fit-content;
+}
+
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 600px) {
+  .wordlist-container {
+    padding: 10px;
+    width: calc(100vw - 20px);
+  }
+
+  .wordlist-input,
+  .wordlist-textarea {
+    margin-right: 0;
+  }
+
+  .wordlist-button {
+    padding: 5px 10px;
+  }
+
+  .wordlist-list {
+    width: 100%;
+  }
+}
+
+.wordlist-pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.wordlist-pagination-button {
+  padding: 8px 12px;
+  margin: 0 4px;
+  background-color: #f2f2f2;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.wordlist-pagination-button:hover {
+  background-color: #ccc;
+}
+
+.wordlist-pagination-button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.wordlist-controls {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.wordlist-search {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  max-width: 40vw;
+  box-sizing: border-box;
+}
+
+.wordlist-sort {
+  padding: 10px;
+  max-width: 35vw;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.wordlist-sort:focus {
+  outline: none;
+}
+
+.wordlist-sort option {
+  background-color: #fff;
+  color: #333;
+}
+
+.wordlist-sort-direction {
+  border: none;
+  background: none;
+  color: #333;
+  border: 1px solid #ccc;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease, background-color 0.3s ease, left 0.3s ease; 
+}
+
+.wordlist-sort-direction:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
